@@ -19,21 +19,21 @@
 # IN THE SOFTWARE.
 
 # Project information
-site_name: Material for MkDocs
-site_url: https://squidfunk.github.io/mkdocs-material/
-site_author: Martin Donath
+site_name: TigerGraph Hub
+site_url: https://herktg.github.io/tg-ecosys-docs/
+site_author: Jon Herke
 site_description: >-
   Create a branded static site from a set of Markdown files to host the
   documentation of your Open Source or commercial project – customizable,
   searchable, mobile-friendly, 40+ languages
 
 # Repository
-repo_name: squidfunk/mkdocs-material
-repo_url: https://github.com/squidfunk/mkdocs-material
+repo_name: tigergraph/ecosys
+repo_url: https://github.com/tigergraph/ecosys
 edit_uri: ""
 
 # Copyright
-copyright: Copyright &copy; 2016 - 2020 Martin Donath
+copyright: Copyright &copy; 2020 TigerGraph
 
 # Configuration
 theme:
@@ -55,8 +55,8 @@ theme:
     #- instant
   palette:
     scheme: default
-    primary: indigo
-    accent: indigo
+    primary: deep-orange
+    accent: deep-orange
   font:
     text: Roboto
     code: Roboto Mono
@@ -90,17 +90,17 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/squidfunk
-    - icon: fontawesome/brands/gitter
-      link: https://gitter.im/squidfunk/mkdocs-material
-    - icon: fontawesome/brands/docker
-      link: https://hub.docker.com/r/squidfunk/mkdocs-material/
+      link: https://github.com/tigergraph/ecosys
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/F2c9b9v
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/c/TigerGraph/videos
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/squidfunk
+      link: https://twitter.com/TigerGraphDB
     - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/squidfunk/
-    - icon: fontawesome/brands/instagram
-      link: https://instagram.com/squidfunk
+      link: https://www.linkedin.com/company/tigergraph/
+    - icon: fontawesome/brands/twitch
+      link: https://www.twitch.tv/tigergraph
 
 # Extensions
 markdown_extensions:
@@ -141,16 +141,16 @@ markdown_extensions:
 # Page tree
 nav:
   - Home: index.md
-  - Getting started:
-    - Installation: getting-started.md
-    - Creating your site: creating-your-site.md
+  - Getting Started:
+    - Where to start?: getting-started.md
+    - Graph fundementals: creating-your-site.md
     - Publishing your site: publishing-your-site.md
     - Customization: customization.md
     - Troubleshooting: troubleshooting.md
     - Data privacy: data-privacy.md
     - Insiders: insiders.md
     - License: license.md
-  - Setup:
+  - Machine Learning:
     - Changing the colors: setup/changing-the-colors.md
     - Changing the fonts: setup/changing-the-fonts.md
     - Changing the language: setup/changing-the-language.md
@@ -163,7 +163,7 @@ nav:
     - Adding a comment system: setup/adding-a-comment-system.md
     #- Adding an announcement bar: setup/adding-an-announcement-bar.md
     #- Adding a landing page: setup/adding-a-landing-page.md
-  - Reference:
+  - Projects:
     - Admonitions: reference/admonitions.md
     - Buttons: reference/buttons.md
     - Code blocks: reference/code-blocks.md
@@ -175,7 +175,7 @@ nav:
     - Lists: reference/lists.md
     - MathJax: reference/mathjax.md
     - Meta tags: reference/meta-tags.md
-  - Changelog:
+  - Resources:
     - Release notes: changelog.md
     - Upgrading: upgrading.md
     - Deprecations: deprecations.md
