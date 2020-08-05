@@ -152,24 +152,17 @@ nav:
     - In-graph machine learning: ml/changing-the-logo-and-icons.md
 
   - Projects:
-    - Admonitions: projects/admonitions.md
-    - Buttons: projects/buttons.md
-    - Code blocks: projects/code-blocks.md
-    - Content tabs: projects/content-tabs.md
-    - Footnotes: projects/footnotes.md
-    - Formatting: projects/formatting.md
-    - Icons + Emojis: projects/icons-emojis.md
-    - Images: projects/images.md
-    - Lists: projects/lists.md
-    - MathJax: projects/mathjax.md
-    - Meta tags: projects/meta-tags.md
+    - Active: projects/projects.md
+    - Python: projects/python.md
+    - Visualization: projects/visualization.md
+    - Machine Learning: projects/ml.md
+
   - Resources:
     - Books: books.md
     - Papers: papers.md
     - Videos: videos.md
     - Partners: partners.md
-  - <a href="https://community.tigergraph.com" target="_blank">Community</a>
-
+  
 # Google Analytics
 google_analytics:
   - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]

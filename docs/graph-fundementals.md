@@ -2,5 +2,5 @@
 template: overrides/main.html
 ---
 
-# Graph Fundemnetals 
+# Graph Fundementals
 Stuff Goes here
