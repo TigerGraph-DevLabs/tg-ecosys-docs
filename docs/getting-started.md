@@ -5,6 +5,8 @@ title: Getting started
 
 # Getting started
 
+<iframe src="https://www.youtube.com/embed/${youtube_id}?autoplay=1" width="853" height="480" frameborder="0" allowfullscreen></iframe>
+
 Material for MkDocs is a theme for [MkDocs][1], a static site generator geared
 towards (technical) project documentation. If you're familiar with Python, you
 can install Material for MkDocs with [`pip`][2], the Python package manager.
@@ -12,10 +14,10 @@ If not, we recommended using [`docker`][3].
 
 In case you're running into problems, consult the [troubleshooting][4] section.
 
-  [1]: https://www.mkdocs.org
-  [2]: #with-pip
-  [3]: #with-docker
-  [4]: troubleshooting.md
+  [1]: https://tigergraph.com
+  [2]: #
+  [3]: #
+  [4]: projects.md
 
 ## Installation
 
