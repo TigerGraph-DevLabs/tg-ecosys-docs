@@ -19,13 +19,13 @@
 # IN THE SOFTWARE.
 
 # Project information
-site_name: TigerGraph Hub
+site_name: TigerGraph's Developer Portal
 site_url: https://herktg.github.io/tg-ecosys-docs/
 site_author: Jon Herke
 site_description: >-
-  Create a branded static site from a set of Markdown files to host the
-  documentation of your Open Source or commercial project – customizable,
-  searchable, mobile-friendly, 40+ languages
+  TigerGraph is dedicated to providing the community 
+  with all the essential in-house and community-developed 
+  tools to get the most value out of your TigerGraph solutions
 
 # Repository
 repo_name: tigergraph/ecosys
@@ -175,7 +175,7 @@ nav:
     - Lists: reference/lists.md
     - MathJax: reference/mathjax.md
     - Meta tags: reference/meta-tags.md
-  - Resources:
+  - Changelog:
     - Release notes: changelog.md
     - Upgrading: upgrading.md
     - Deprecations: deprecations.md
