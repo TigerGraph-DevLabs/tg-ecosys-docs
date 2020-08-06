@@ -157,11 +157,21 @@ nav:
     - Visualization: projects/visualization.md
     - Machine Learning: projects/ml.md
 
-  - Resources:
-    - Books: books.md
-    - Papers: papers.md
-    - Videos: videos.md
-    - Partners: partners.md
+  # - Resources:
+  #   - Books: books.md
+  #   - Papers: papers.md
+  #   - Videos: videos.md
+  #   - Partners: partners.md
+  
+  - Learn:
+    - Intro to Graph: learn/intro2graph.md
+    # - Understanding the Basics: 
+    # - Intro to TigerGraph: 
+    # - GSQL Basics: 
+    # - Advance GSQL:
+
+
+
   
 # Google Analytics
 google_analytics:
