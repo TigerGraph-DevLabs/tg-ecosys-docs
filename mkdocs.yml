@@ -56,9 +56,9 @@ theme:
   palette:
     scheme: default
     primary: deep-orange
-    accent: deep-orange
+    accent: light-blue
   font:
-    text: Roboto
+    text: Roboto 
     code: Roboto Mono
   favicon: assets/favicon.png
   icon:
@@ -69,20 +69,20 @@ plugins:
   - search
   - redirects:
       redirect_maps:
-        extensions/admonition.md: reference/admonitions.md
-        extensions/codehilite.md: reference/code-blocks.md
-        extensions/footnotes.md: reference/footnotes.md
-        extensions/metadata.md: reference/meta-tags.md
-        extensions/permalinks.md: setup/setting-up-navigation.md #permalink
-        extensions/pymdown.md: reference/admonitions.md
-        plugins/search.md: setup/setting-up-site-search.md
-        # plugins/minification.md:
-        plugins/revision-date.md: setup/adding-a-git-repository.md #revision-date
-        # plugins/awesome-pages.md:
-        releases/4.md: upgrading.md #upgrading-from-4x-to-5x
-        releases/5.md: upgrading.md #upgrading-from-3x-to-4x
-        releases/changelog.md: changelog.md
-        sponsorship.md: insiders.md
+        # extensions/admonition.md: reference/admonitions.md
+        # extensions/codehilite.md: reference/code-blocks.md
+        # extensions/footnotes.md: reference/footnotes.md
+        # extensions/metadata.md: reference/meta-tags.md
+        # extensions/permalinks.md: setup/setting-up-navigation.md #permalink
+        # extensions/pymdown.md: reference/admonitions.md
+        # plugins/search.md: setup/setting-up-site-search.md
+        # # plugins/minification.md:
+        # plugins/revision-date.md: setup/adding-a-git-repository.md #revision-date
+        # # plugins/awesome-pages.md:
+        # releases/4.md: upgrading.md #upgrading-from-4x-to-5x
+        # releases/5.md: upgrading.md #upgrading-from-3x-to-4x
+        # releases/changelog.md: changelog.md
+        # sponsorship.md: insiders.md
   - minify:
       minify_html: true
 
@@ -146,10 +146,10 @@ nav:
     - Graph fundementals: graph-fundementals.md
 
   - Machine Learning:
-    - Where to start?: ml/changing-the-colors.md
-    - Feature extraction: ml/changing-the-fonts.md
-    - Graph enrichment: ml/changing-the-language.md
-    - In-graph machine learning: ml/changing-the-logo-and-icons.md
+    - Where to start?: ml/ml.md
+    # - Feature extraction: ml/ml.md
+    # - Graph enrichment: ml/ml.md
+    # - In-graph machine learning: ml/ml.md
 
   - Projects:
     - Active: projects/projects.md
@@ -164,8 +164,8 @@ nav:
   #   - Partners: partners.md
   
   - Learn:
-    - Intro to Graph: learn/intro2graph.md
-    # - Understanding the Basics: 
+    - Video Walkthroughs: learn/intro2graph.md
+    - Schema Design Best Practice: learn/schema-best-practice.md 
     # - Intro to TigerGraph: 
     # - GSQL Basics: 
     # - Advance GSQL:

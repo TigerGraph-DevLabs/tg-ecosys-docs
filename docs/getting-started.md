@@ -5,107 +5,28 @@ title: Getting started
 
 # Getting started
 
-<iframe src="https://www.youtube.com/embed/${youtube_id}?autoplay=1" width="853" height="480" frameborder="0" allowfullscreen></iframe>
+Welcome to TigerGraph's Developer Portal! This place houses many 
+open-source patterns, examples, ecucation, resources that have been 
+built by TigerGraph and the community.
 
-Material for MkDocs is a theme for [MkDocs][1], a static site generator geared
-towards (technical) project documentation. If you're familiar with Python, you
-can install Material for MkDocs with [`pip`][2], the Python package manager.
-If not, we recommended using [`docker`][3].
+## Have Questions on Your Journey?
 
-In case you're running into problems, consult the [troubleshooting][4] section.
+### Join TigerGraph Developers on on the [Community Fourm](https://community.tigergraph.com)
 
-  [1]: https://tigergraph.com
-  [2]: #
-  [3]: #
-  [4]: projects.md
+[![community](/assets/images/tg-community.png)](https://community.tigergraph.com)
 
-## Installation
 
-### with pip
+> **OR,** If chat is more your speed, you can join the TigerGraph Community Chat:
 
-Material for MkDocs can be installed with `pip`:
+### Join the TigerGraph [Community Chat](https://discord.gg/F2c9b9v)
 
-=== "Material for MkDocs"
+<iframe src="https://discordapp.com/widget?id=640707678297128980&theme=dark" width="100%" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 
-    ```
-    pip install mkdocs-material
-    ```
+* Use the `#general` channel for casual conversations around TigerGraph
+* Use the `#support` channel for general questions or discussion about TigerGraph
+* Use the `#tools` channel for questions about TigerGraph community tools 
+* Use the `#app-showcase` channel for showing the things you build
+* Use the `#articles-blogs-news` channel for posting interesting things you find on the web
 
-=== "Material for MkDocs Insiders"
+*There are many other channels available, check the channel list*
 
-    ``` sh
-    pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
-    ```
-
-This will automatically install compatible versions of all dependencies:
-[MkDocs][1], [Markdown][5], [Pygments][6] and [Python Markdown Extensions][7].
-Material for MkDocs always strives to support the latest versions, so there's
-no need to install those packages separately.
-
-Note that in order to install [__Material for MkDocs Insiders__][8], you'll
-need to [become a sponsor][9], create a [personal access token][10], and set
-the `GH_TOKEN` environment variable to the token's value.
-
-  [5]: https://python-markdown.github.io/
-  [6]: https://pygments.org/
-  [7]: https://facelessuser.github.io/pymdown-extensions/
-  [8]: insiders.md
-  [9]: insiders.md#how-to-become-a-sponsor
-  [10]: https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token
-
-### with docker
-
-The official [Docker image][11] is a great way to get up and running in a few
-minutes, as it comes with all dependencies pre-installed. Pull the image for the 
-`latest` version with:
-
-```
-docker pull squidfunk/mkdocs-material
-```
-
-The `mkdocs` executable is provided as an entry point and `serve` is the 
-default command. If you're not familiar with Docker don't worry, we have you
-covered in the following sections.
-
-The following plugins are bundled with the Docker image:
-
-* [mkdocs-awesome-pages-plugin][12]
-* [mkdocs-git-revision-date-localized-plugin][13]
-* [mkdocs-minify-plugin][14]
-* [mkdocs-redirects][15]
-
-  [11]: https://hub.docker.com/r/squidfunk/mkdocs-material/
-  [12]: https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin
-  [13]: https://github.com/timvink/mkdocs-git-revision-date-localized-plugin
-  [14]: https://github.com/byrnereese/mkdocs-minify-plugin
-  [15]: https://github.com/datarobot/mkdocs-redirects
-
-### with git
-
-Material for MkDocs can be directly used from [GitHub][16] by cloning the
-repository into a subfolder of your project root which might be useful if you
-want to use the very latest version:
-
-=== "Material for MkDocs"
-
-    ```
-    git clone https://github.com/squidfunk/mkdocs-material.git
-    ```
-
-=== "Material for MkDocs Insiders"
-
-    ```
-    git clone git@github.com:squidfunk/mkdocs-material-insiders.git mkdocs-material
-    ```
-
-The theme will reside in the folder `mkdocs-material/material`. Note that when
-cloning from `git`, you must install all required dependencies yourself:
-
-```
-pip install -r mkdocs-material/requirements.txt
-```
-
-Note that in order to install [__Material for MkDocs Insiders__][8], you'll
-need to [become a sponsor][9].
-
-  [16]: https://github.com/squidfunk/mkdocs-material
