@@ -32,7 +32,16 @@ template: overrides/main.html
 
 <!---Get Discourse Comments--->
 <div id='discourse-comments'></div>
+<script type="text/javascript">
+  DiscourseEmbed = { discourseUrl: 'https://community.tigergraph.com/',
+                    topicId: 638 };
 
+  (function() {
+    var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+    d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+  })();
+</script>
 
 # Intro to TigerGraph Products
 
@@ -243,13 +252,3 @@ template: overrides/main.html
 
 
 <!---Script to Grab Discourse Comments--->
-<script type="text/javascript">
-  DiscourseEmbed = { discourseUrl: 'https://community.tigergraph.com/',
-                    topicID: 638 };
-
-  (function() {
-    var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
-    d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
-  })();
-</script>
