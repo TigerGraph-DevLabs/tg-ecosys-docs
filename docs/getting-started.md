@@ -13,7 +13,7 @@ built by TigerGraph and the community.
 
 ### Join TigerGraph Developers on on the [Community Fourm](https://community.tigergraph.com)
 
-[![community](/assets/images/tg-community.png)](https://community.tigergraph.com)
+![community](/assets/images/tg-community.png)
 
 
 > **OR,** If chat is more your speed, you can join the TigerGraph Community Chat:
