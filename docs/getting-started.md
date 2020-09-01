@@ -5,15 +5,16 @@ title: Getting started
 
 # Getting started
 
-Welcome to TigerGraph's Developer Portal! This place houses many 
-open-source patterns, examples, ecucation, resources that have been 
+Welcome to TigerGraph's Developer Portal!
+
+This place houses many open-source patterns, examples, ecucation, resources that have been 
 built by TigerGraph and the community.
 
 ## Have Questions on Your Journey?
 
 ### Join TigerGraph Developers on on the [Community Fourm](https://community.tigergraph.com)
 
-[![community](/assets/images/tg-community.png)](https://community.tigergraph.com)
+![community](/assets/images/tg-community.png)
 
 
 > **OR,** If chat is more your speed, you can join the TigerGraph Community Chat:

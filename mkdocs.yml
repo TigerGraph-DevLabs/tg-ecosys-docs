@@ -142,7 +142,7 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Getting Started:
-    - Where to start?: getting-started.md
+    - Welcome!: getting-started.md
     - Graph fundementals: graph-fundementals.md
 
   - Machine Learning:
@@ -157,8 +157,8 @@ nav:
     - Visualization: projects/visualization.md
     - Machine Learning: projects/ml.md
 
-  # - Resources:
-  #   - Books: books.md
+  - Tools:
+    - Awesome: awesome.md
   #   - Papers: papers.md
   #   - Videos: videos.md
   #   - Partners: partners.md
