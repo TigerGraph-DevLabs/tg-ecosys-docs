@@ -19,7 +19,7 @@
 # IN THE SOFTWARE.
 
 # Project information
-site_name: Developer Portal
+site_name: Ecosys Portal
 site_url: https://herktg.github.io/tg-ecosys-docs/
 site_author: Jon Herke
 site_description: >-
@@ -102,6 +102,9 @@ extra:
     - icon: fontawesome/brands/twitch
       link: https://www.twitch.tv/tigergraph
 
+extra_css:
+  - stylesheets/extra.css
+
 # Extensions
 markdown_extensions:
   - markdown.extensions.admonition
@@ -142,35 +145,29 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Getting Started:
-    - Welcome!: getting-started.md
-    - Graph fundementals: graph-fundementals.md
-
-  - Machine Learning:
-    - Where to start?: ml/ml.md
-    # - Feature extraction: ml/ml.md
-    # - Graph enrichment: ml/ml.md
-    # - In-graph machine learning: ml/ml.md
-
-  - Projects:
-    - Active: projects/projects.md
-    - Python: projects/python.md
-    - Visualization: projects/visualization.md
-    - Machine Learning: projects/ml.md
-
-  - Tools:
-    - Awesome: awesome.md
-  #   - Papers: papers.md
-  #   - Videos: videos.md
-  #   - Partners: partners.md
+    - Where to Start?: getting-started.md
+    - Graph Fundementals: learn/intro-graph.md
+    - Graph + ML: learn/l-ml.md
   
   - Learn:
-    - Video Walkthroughs: learn/intro2graph.md
-    - Schema Design Best Practice: learn/schema-best-practice.md 
-    # - Intro to TigerGraph: 
-    # - GSQL Basics: 
-    # - Advance GSQL:
+    - Intro to Graph Fundamentals: learn/intro-graph.md
+    - Intro to TigerGraph Products: learn/tg-products.md
+    - Intro to GSQL: learn/intro-to-gsql.md
+    - Advanced GSQL: learn/advanced-gsql.md
+    - Machine Learning: learn/l-ml.md
+    - Schema Design: learn/schema-best-practice.md
 
+  - Projects:
+    - Active Projects: projects/projects.md
+    - Python: projects/python.md
+    - Visualization: projects/visualization.md
+    - Machine Learning: projects/p-ml.md
 
+  - Awesome:
+    - TigerGraph: awesome.md
+
+  - Community: 
+    - Get Connected: community.md
 
   
 # Google Analytics

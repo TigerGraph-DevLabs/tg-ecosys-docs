@@ -5,29 +5,38 @@ title: Getting started
 
 # Getting started
 
-Welcome to TigerGraph's Developer Portal!
+Whether developed by TigerGraph or our Developer Community, here you'll find everything from connectors, developer tools, visualization tools to data+application starter kits. The TigerGraph's ecosys repository on GitHub is your one-stop center.
 
-This place houses many open-source patterns, examples, ecucation, resources that have been 
-built by TigerGraph and the community.
+For the latest open-source integrations and projects, also check out the [**TigerGraph Ecosys Community Projects**](/projects/projects).
 
-## Have Questions on Your Journey?
+## Where to Start?
 
-### Join TigerGraph Developers on on the [Community Fourm](https://community.tigergraph.com)
+**1.** [Install TigerGraph](https://www.tigergraph.com/download/) or [Start tgCloud soulution](https://www.tigergraph.com/cloud/)
 
-![community](/assets/images/tg-community.png)
+**2.** [Learn TigerGraph by getting certified](https://www.tigergraph.com/certification/)
+ 
+ * [Graph Fundementals](https://www.tigergraph.com/certification-graph-fundamentals/)
+ * [GSQL 101](https://www.tigergraph.com/certification-gsql-101/)
+
+**3.** [Checkout other projects](#)
+
+**4.** [Get help from the community](https://community.tigergraph.com)
+
+**5.** [Chat with other TigerGraph Developers](https://discord.gg/F2c9b9v)
+
+## TigerGraph AWESOMENESS
+For a complete list of all things awesome on TigerGraph checkout ["Awesome TigerGraph"](/awesome/)
 
 
-> **OR,** If chat is more your speed, you can join the TigerGraph Community Chat:
+## How to Contribute
 
-### Join the TigerGraph [Community Chat](https://discord.gg/F2c9b9v)
+**If you would like to contribute to a project:**
 
-<iframe src="https://discordapp.com/widget?id=640707678297128980&theme=dark" width="100%" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+**1.** Checkout current [active TigerGraph community projects](/projects/projects)
 
-* Use the `#general` channel for casual conversations around TigerGraph
-* Use the `#support` channel for general questions or discussion about TigerGraph
-* Use the `#tools` channel for questions about TigerGraph community tools 
-* Use the `#app-showcase` channel for showing the things you build
-* Use the `#articles-blogs-news` channel for posting interesting things you find on the web
+**2.** Head over the [TigerGraph's Community Chat](https://discord.gg/F2c9b9v)
 
-*There are many other channels available, check the channel list*
+**3.** Introduce yourself to the corresponding project channel
+  
+  * A TigerGraph community leader will help you 1-on-1 to get started in contributing
 

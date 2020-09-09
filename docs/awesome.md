@@ -1,3 +1,6 @@
+---
+template: overrides/main.html
+---
 <!-- As a Community Member Feel free to add anything that you think would help others in the community -->
 # Awesome TigerGraph
 [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)

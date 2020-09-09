@@ -1,4 +1,0 @@
----
-template: overrides/main.html
----
-
