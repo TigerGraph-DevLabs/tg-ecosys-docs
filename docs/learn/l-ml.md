@@ -2,143 +2,73 @@
 template: overrides/main.html
 ---
 
-# Why Graphs for Machine Learning and AI?
+# Graphs for Machine Learning and AI
 
-**1. Natural Data Model** - Graph is how we think
+## Why Graph + ML
+You might be thinking why Graphs for Macvhine Learning and AI? There are a few reasons including that it's a **natural data model**, we think in terms of graphs which means graphs can be modeled very logically and naturally.
 
-**2. Richer data** - connections between entities, graph-based features
+Graphs also provide **richer data** by having connections between entities which allow us to create graph-based features. Graphs have always had a natural role in **machine learning** if you look at unsupervised learning through graph algorithms, frequent pattern mining and learning through neural networks, deep learning you will see the corrolations with graph. 
 
-**3. Graphs have always had a natural role in machine learning:**
+Graph data models are uniquely qualified to provide explanatory AI which through traditional ML techniques is hard to provide. Native graphs with **Massively Parallel Processing** - (like TigerGraph) enable large scale feature extraction and in-graph analytics which can be more challenging with many joins in a relational database.
 
-    * Unsupervised learning through graph algorithms, frequent pattern mining
-    * Learning through neural networks and deep learning
+## Let's Explore Five Categories
 
-**4.  Graph data models are uniquely qualified to provide explanatory AI.**
+**1.** [Unsupervised Learning with Graph Algorithms](#)
 
-**5.  Native Graphs with Massively Parallel Processing** - (like TigerGraph) enable large scale feature extraction and in-graph analytics
+**2.** [Feature Set Extraction for Machine Learning](#)
 
+**3.** [Machine Learning Enrichment with Graph Features](#)
 
-# Where to start?
-## As a Data Scientist 
+**4.** [Graph Enrichment with Machine Learning](#)
 
-Looking to get your hands on a real notebook and start to impelement TigerGraph with your Data Science stack? Checkout this notebook to get started!
-
-<script src="https://gist.github.com/HerkTG/2f2ed0f40962ca5ffa9aac9ab3880b0f.js"></script>
-
-## As a Graph Engineer
-
-# Three Ways Graphs Enrich ML/AI
-
-## 1. Graph Algorithms as Unsupervised Learning
-
-!!! info
-    Take a deeper look into TigerGraph's [Open-Source Algorithms](https://docs.tigergraph.com/tigergraph-platform-overview/graph-algorithm-library)
-
-=== "Overview"
-    * Graph Algorithms provide specific information about a graph's structure, either globally or with respect to certain vertices.
-
-    * Certain algorithms can be considered learning algorithms:
-
-        * Ranking
-        * Community Detection
-        * Frequent Pattern Discovery
+**5.** [In-database ML Techniques for Graphs](#in-database-machine-learning)
 
 
-    * The computational requirements can be intense:
-      
-        * Consider the theoretical memory and CPU demands (big O).
-        * Consider the parallelism and programmability of the graph platform.
+## Unsupervised Learning with Graph Algorithms
+
+### Overview
+
+## Feature Set Extraction for Machine Learning
+
+### Overview
+
+## Machine Learning Enrichment with Graph Features
+
+### Overview
+
+## Graph Enrichment with Machine Learning
+
+### Overview
+
+???+ summary "Combining Natural Language Processing with a Graph Database for COVID-19 Dataset"
+
+    <!--Youtube Video-->
+    <iframe width="100%" height="425px" src="https://www.youtube.com/embed/8dskS7iOZZs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-=== "Types of Graph Algorithms"
+### Project - Hands-On Starter Kit
 
-    **Search**
-
-    **Path Finding**
-
-    **Clustering / Community Detection**
-
-      * Lenient clustering - connected component: one connection
-      * Strict clustering - clique detection: every possible connection
-      * Relative density - more connections in-group than between-group
-
-    **Ranking and Centrality**
-
-      * PageRank, HITS
-      * SimRank, RoleSim
-
-    **Frequent Pattern Discovery**
-
-      * Agglomerative search
-
-=== "Practical Graph Algorithm Computation"
-
-    *Problem* - Time Complexity, basic implementation
-
-    *Weighted Shortest Path* - O(V^2)
-
-    *PageRank* - O(E*k), k = num of iterations
-
-    *Closeness Centrality* - O(E*k), k = num of iterations
-
-    *Betweenness Centrality* -O(E*V) unweighted graph, O(V^3) weighted, dense graph
-
-    !!! note
-        * E is between V and V2, depending on graph's density
-        * If your graph is HUGE, then O(V3) or O(E2) might not be reasonable.
-        * Use the fastest algorithms
-        * Use the best implementations and platform:
-            * Massively Parallel Processing
-            * Highly programmable
-                * Data structures
-                * Control flow
-                * User-customizable
-
-!!! tip
-
-    **Want Hands On?**
-
-    Learn how you can implement the same techniques in your next project by checking out sample projects that use [Graph Algorithms as Unsupervised Learning](#)
-
-## 2. Running targeted queries as Feature Extraction, leading to Explainable AI
-
-**Graph Feature Extraction & Explainable AI**
-
-With having a data model, the graph itself is explanatory which is sometimes called "Graph Analytics" = Connecting the Dots
+If you would like to follow along and conduct this workshop outlined above here are the [**resources to get started**](https://drive.google.com/drive/folders/1qEzX7SCvJ_z1-FYBCpwrH3XrvS-Pnqdk?usp=sharing). Please reference the video above as an insturction set for the project. 
 
 
-![explain-ai-graph](/assets/images/explain-ai-graph.png)
+## In Database Machine Learning
 
-**Detecting Phone-Based Fraud by Analyzing Network or Graph Relationship Features**
+### Overview
 
-![good-bad-phone](/assets/images/gPhone-bPhone.png)
+???+ summary "In-Database Machine Learning Solution For Real-Time Recommendations"
 
-Model is a weighted sum of graph features
+    <!--Youtube Video-->
+    <iframe width="100%" height="425px" src="https://www.youtube.com/embed/4n7PZTIv1ZU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-*Example:*
+??? summary "Deep Learning Implemented by GSQL on a Native Parallel Graph Database"
 
-  * 30% Low call back phone
-  * 20% No status group
-  * 15% Short calls
-  * 15% Many in-group connections
-  * 10% 3-step friend relation
+    <!--Youtube Video-->
+    <iframe width="100%" height="425px" src="https://www.youtube.com/embed/kvT6CBlT9cs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-"These are the factors that lead to phone fraud."
+### Project - Hands-On Starter Kit
 
+???+ summary "Big Data Entity Resolution Starter Kit Demo"
 
-Graph features can be both semantically meaning AND predictive
-
-## 3. Learning from the Graph's structure and labels for Supervised Learning
-
-**Graph Embedding**
-
-Constructing a feature vector representation (embedding) for the nodes of a graph.
-
-Similar Features = Similar Structural Neighborhoods
-
-Node2Vec is a random-walk based graph embedding framework.
-
-1. Nodes from the same network community should have lots of interconnections.
-
-2. Nodes that share similar roles should have similar features.
+    <!--Youtube Video-->
+    <iframe width="100%" height="425px" src="https://www.youtube.com/embed/O1wLxO_xrFQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

@@ -8,6 +8,7 @@ TigerGraphs Ecosys is a collection of innovative projects, connectors, patterns,
 !!! warning "Keep in Mind"
     Projects marked by **`Community Support`** don't have any SLAs or guarantees and support will be primarily through community contributions to the project.
 
+[:octicons-file-code-24: Source][5] · :octicons-milestone-24: Default: `indigo`
 
 ### pyTigerGraph
 
