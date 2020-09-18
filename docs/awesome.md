@@ -12,10 +12,10 @@ A curated list of AWESOME TigerGraph community resources.
 * [**TigerGraph Resources**](#tigergraph-resources)
 * [**Developer Tools**](#developer-tools)
 * [**Connectors**](#connectors)
-* [**Visualizations**](#visualizations)
+* [**Visualizations**](#visualization)
 * [**Enviornments**](#enviornments)
 * [**Certifications**](#certifications)
-* [**Pre-Built Demos**](#pre-built-demos)
+* [**Pre-Built Demos**](#demos)
 * [**Benchmarking**](#benchmarking)
 * [**Blogs**](#blogs)
 * [**Videos**](#videos)
@@ -68,16 +68,20 @@ A curated list of AWESOME TigerGraph community resources.
 * [**tg-jdbc-driver**](https://github.com/tigergraph/ecosys/tree/master/tools/etl/tg-jdbc-driver) a JDBC Type 4 Driver for Spark, Python and Java
 
 ### Python
-* [**pyTigerGraph**](https://pypi.org/project/pyTigerGraph/) - Recommended
-* [**tg-python-wrapper**](https://github.com/tigergraph/ecosys/tree/master/tools/etl/tg-python-wrapper) - simple python wrapper
-* [**gsql_client**](https://github.com/dingmaotu/gsql_client) - simple python gsql client
+* [**pyTigerGraph**](https://pypi.org/project/pyTigerGraph/) Recommended
+* [**tg-python-wrapper**](https://github.com/tigergraph/ecosys/tree/master/tools/etl/tg-python-wrapper) simple python wrapper
+* [**gsql_client**](https://github.com/dingmaotu/gsql_client) simple python gsql client
 * [**pyGraphistry**](https://github.com/graphistry/pygraphistry/tree/master/demos/demos_databases_apis/tigergraph)
+
+### .NET
+* [**TigerGraph.NET:**](https://github.com/allisterb/TigerGraph.NET) Cross-platform libraries and tools for building graph-powered browser, server, desktop, and notebook apps in C# and F# with TigerGraph.
 
 ### C#
 * [**TigerGraphConnector_CSharp**](https://github.com/gpadvorac/TigerGraphConnector_CSharp) - C# Wrapper for the TigerGraph REST++ API
 
 ### Javacript
-* [**tigroid**](https://github.com/szb-tg/Tigroid.js) - This connector is intended to work both in browsers and on server side, to be Node.JS friendly (in the long term).
+* [**tigroid**](https://github.com/szb-tg/Tigroid.js) a connector is intended to work both in browsers and on server side, to be Node.JS friendly (in the long term).
+* [**TigerGraph.js**](https://genericp3rson.github.io/Tigergraph.js/) a Javascript wrapper for TigerGraph aimed to simplify the TigerGraph-JavaScript development process
 
 ### Flutter
 * [**tiger_graph**](https://pub.dev/packages/tiger_graph) a Dart wrapper that streamlines connection between a TigerGraph cloud instance and Flutter.
@@ -86,6 +90,7 @@ A curated list of AWESOME TigerGraph community resources.
 * [**dist_split**](https://github.com/tigergraph/ecosys/tree/master/etl/dist_split) a utility to split large data files for loading onto a distributed system
 
 ## Visualization
+* [**Davraz**](https://github.com/canbax/davraz) a graph visualization and exploration tool.
 * [**D3**](https://github.com/d3/d3/wiki/Gallery) a community open source visualization library
 * [**ant_design_g6**](https://g6.antv.vision/en/docs/manual/introduction) graph visualization engine, which provides a set of basic mechanisms, including rendering, layout, analysis, interaction, animation, and other auxiliary tools
 * [**KeyLines**](https://cambridge-intelligence.com/keylines/)
@@ -96,18 +101,19 @@ A curated list of AWESOME TigerGraph community resources.
 
 ## TigerGraph Enviornment
 ### Docker
-* [**Docker Demo**](https://github.com/tigergraph/ecosys/tree/master/demos/guru_scripts/docker)
-* [**TG Docker Lite**](https://github.com/DavidBakerEffendi/tigergraph) - The purpose of this repository is to remove un-needed demo files from TigerGraph containers for resource sensitive environments e.g. CI/CD. The Docker image starts gadmin when the container spins up.
+* [**Docker Demo**](https://github.com/tigergraph/ecosys/tree/master/demos/guru_scripts/docker)step-by-step instructions on how to pull the latest TigerGraph Developer Edition docker image to your host machine
+* [**TG Docker Lite**](https://github.com/DavidBakerEffendi/tigergraph) the purpose of this repository is to remove un-needed demo files from TigerGraph containers for resource sensitive environments e.g. CI/CD. The Docker image starts gadmin when the container spins up.
+* [**Full Enviorment Workshop**](https://github.com/xpertmind/TigerGraph)TigerGraph workshop with TG-Developer latest version (3.0) and the ecosystem around it: MariaDB, Kafka, Zookeeper, Kafka Connect and Conda.
 
 ### Cloud
-* [**Deploy TigerGraph Cloud**](https://community.tigergraph.com/t/howto-deploy-a-cloud-instance/363)
+* [**Deploy TigerGraph Cloud**](https://community.tigergraph.com/t/howto-deploy-a-cloud-instance/363) a walkthrough guide on navigating tigergraph cloud
 
 ## Certifications
-* [**Graph Fundementals**](https://www.tigergraph.com/certification-graph-fundamentals/) is a course designed for people who are new to graph database and graph-based analytics
+* [**Graph Fundementals**](https://www.tigergraph.com/certification-graph-fundamentals/) a course designed for people who are new to graph database and graph-based analytics
 * [**GSQL 101**](https://www.tigergraph.com/certification-gsql-101/) provides the basics of programming in GSQL, and enables you to create and use TigerGraph’s graph database and analytics solution
 
 ## Demos
-* [**TigerGraph Yelp Dataset Solution**](https://github.com/DavidBakerEffendi/tigergraph-yelp) - Contains the GSQL scripts and TigerGraph solution tarball to import and model the Yelp challenge dataset using TigerGraph.
+* [**TigerGraph Yelp Dataset Solution**](https://github.com/DavidBakerEffendi/tigergraph-yelp) contains the GSQL scripts and TigerGraph solution tarball to import and model the Yelp challenge dataset using TigerGraph.
 * [**GSQL 101 Python Google Colab**](https://colab.research.google.com/drive/1E8tTIvg-DI8zpmyQjtxVXpP8KqtjXxY8?usp=sharing)- Getting started guide for interacting with TigerGraph from python environment.
 * [**pyGraphistry Vis Demo Notebook**](https://github.com/graphistry/pygraphistry/blob/master/demos/demos_databases_apis/tigergraph/tigergraph_pygraphistry_bindings.ipynb) - sample of how to add graph based visualizations in your notebook.
 * [**pattern_match**](https://github.com/tigergraph/ecosys/tree/master/demos/guru_scripts/pattern_match)
@@ -153,5 +159,3 @@ A curated list of AWESOME TigerGraph community resources.
 
 ## Videos
 * [**TigerGraph YouTube Channel**](https://www.youtube.com/tigergraph)
-
-## Local Meetups
