@@ -1,24 +1,3 @@
-## In Database Machine Learning
-
-### Overview
-
-???+ summary "In-Database Machine Learning Solution For Real-Time Recommendations"
-
-    <!--Youtube Video-->
-    <iframe width="100%" height="425px" src="https://www.youtube.com/embed/4n7PZTIv1ZU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-??? summary "Deep Learning Implemented by GSQL on a Native Parallel Graph Database"
-
-    <!--Youtube Video-->
-    <iframe width="100%" height="425px" src="https://www.youtube.com/embed/kvT6CBlT9cs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-### Project - Hands-On Starter Kit
-
-???+ summary "Big Data Entity Resolution Starter Kit Demo"
-
-    <!--Youtube Video-->
-    <iframe width="100%" height="425px" src="https://www.youtube.com/embed/O1wLxO_xrFQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 
 
 ## As a Data Scientist 

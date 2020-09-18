@@ -4,7 +4,7 @@ title: TigerGraph Community
 ---
 ## :material-cursor-default-click-outline: [**Join TigerGraph Developers on the Community Fourm**](https://community.tigergraph.com)
 
-![community](/assets/images/tg-community.png)
+![community](assets/images/tg-community.png)
 
 ## :material-cursor-default-click-outline:  [**Join the TigerGraph Community Chat**](https://discord.gg/F2c9b9v)
 
