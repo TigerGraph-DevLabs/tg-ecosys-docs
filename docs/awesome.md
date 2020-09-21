@@ -105,9 +105,9 @@ A curated list of AWESOME TigerGraph community resources.
 
 ## TigerGraph Enviornment
 ### Docker
-* [**Docker Demo**](https://github.com/tigergraph/ecosys/tree/master/demos/guru_scripts/docker)step-by-step instructions on how to pull the latest TigerGraph Developer Edition docker image to your host machine
+* [**Docker Demo**](https://github.com/tigergraph/ecosys/tree/master/demos/guru_scripts/docker) step-by-step instructions on how to pull the latest TigerGraph Developer Edition docker image to your host machine
 * [**TG Docker Lite**](https://github.com/DavidBakerEffendi/tigergraph) the purpose of this repository is to remove un-needed demo files from TigerGraph containers for resource sensitive environments e.g. CI/CD. The Docker image starts gadmin when the container spins up
-* [**Full Enviorment Workshop**](https://github.com/xpertmind/TigerGraph)TigerGraph workshop with TG-Developer latest version (3.0) and the ecosystem around it: MariaDB, Kafka, Zookeeper, Kafka Connect and Conda
+* [**Full Enviorment Workshop**](https://github.com/xpertmind/TigerGraph) TigerGraph workshop with TG-Developer latest version (3.0) and the ecosystem around it: MariaDB, Kafka, Zookeeper, Kafka Connect and Conda
 
 ### Cloud
 * [**Deploy TigerGraph Cloud**](https://community.tigergraph.com/t/howto-deploy-a-cloud-instance/363) a walkthrough guide on navigating tigergraph cloud
@@ -118,7 +118,7 @@ A curated list of AWESOME TigerGraph community resources.
 
 ## Demos
 * [**TigerGraph Yelp Dataset Solution**](https://github.com/DavidBakerEffendi/tigergraph-yelp) contains the GSQL scripts and TigerGraph solution tarball to import and model the Yelp challenge dataset using TigerGraph
-* [**GSQL 101 Python Google Colab**](https://colab.research.google.com/drive/1E8tTIvg-DI8zpmyQjtxVXpP8KqtjXxY8?usp=sharing)- Getting started guide for interacting with TigerGraph from python environment
+* [**GSQL 101 Python Google Colab**](https://colab.research.google.com/drive/1E8tTIvg-DI8zpmyQjtxVXpP8KqtjXxY8?usp=sharing) a getting started guide for interacting with TigerGraph from python environment
 * [**pyGraphistry Vis Demo Notebook**](https://github.com/graphistry/pygraphistry/blob/master/demos/demos_databases_apis/tigergraph/tigergraph_pygraphistry_bindings.ipynb) a sample of how to add graph based visualizations in your notebook
 * [**pattern_match**](https://github.com/tigergraph/ecosys/tree/master/demos/guru_scripts/pattern_match) a bunch of sample GSQL hops
 * [**temporal_data**](https://github.com/tigergraph/ecosys/tree/master/demos/guru_scripts/temporal_data) a temporal data demo used in Graph Guru 10
@@ -134,7 +134,7 @@ A curated list of AWESOME TigerGraph community resources.
  [**TG-bot**](https://devpost.com/software/tg-bot) a TigerGraph-chat bot model
 
 ## How To
-* [**Python Schema & Load**](https://github.com/parkererickson/yelpGraph/blob/master/schemaAndLoad.ipynb) a imple walkthrough of creating a schmea and upserting data
+* [**Python Schema & Load**](https://github.com/parkererickson/yelpGraph/blob/master/schemaAndLoad.ipynb) a simple walkthrough of creating a schmea and upserting data
 * [**GSQL101 - on a Jupyter Notebook**](https://github.com/yaniv256/ecosys/blob/master/demos/guru_scripts/docker_notebook/gsql101.ipynb) a guide to using GSQL with a Jupyter Notebook
 
 ## Benchmarking
