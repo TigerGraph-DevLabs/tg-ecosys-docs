@@ -5,21 +5,26 @@ This site was created using MkDocs and is editable with using markdown. To learn
 [https://tigergraph-oss.github.io/tg-ecosys-docs/](https://tigergraph-oss.github.io/tg-ecosys-docs/)
 
 
-### Intro to MkDocs
-[MkDocs](https://www.mkdocs.org/) is a fast, simple and downright gorgeous static site generator that's geared towards building project documentation. Documentation source files are written in Markdown, and configured with a single YAML configuration file.
 
-**Learn More: [MkDocs](https://www.mkdocs.org/)**
+## Intro to
 
-### Intro to MarkDown
+### MarkDown
 [Markdown](https://python-markdown.github.io/) is a text-to-HTML conversion tool for web writers. Markdown allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML).
 
 **Learn More: [Markdown](https://python-markdown.github.io/)**
 
 
-### Intro to MkDocs Material Theme
+### MkDocs
+[MkDocs](https://www.mkdocs.org/) is a fast, simple and downright gorgeous static site generator that's geared towards building project documentation. Documentation source files are written in Markdown, and configured with a single YAML configuration file.
+
+**Learn More: [MkDocs](https://www.mkdocs.org/)**
+
+
+### MkDocs Material Theme
 [Material](https://squidfunk.github.io/mkdocs-material/getting-started/) for MkDocs is a theme for MkDocs, a static site generator geared towards (technical) project documentation. If you're familiar with Python, you can install Material for MkDocs with pip, the Python package manager.
 
 **Learn More: [Material](https://squidfunk.github.io/mkdocs-material/getting-started/)**
+
 
 ## Contributing
 
