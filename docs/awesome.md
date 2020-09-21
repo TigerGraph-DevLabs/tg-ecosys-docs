@@ -22,7 +22,7 @@ A curated list of AWESOME TigerGraph community resources.
 
 
 ## Communities
-* [**TigerGraph Community Site**](https://community.tigergraph.com/) a Forum allowing for Q&A, deep discussion about GSQL and TigerGraph's platform components
+* [**TigerGraph Community Site**](https://community.tigergraph.com/) a forum allowing for Q&A, deep discussion around GSQL and TigerGraph's platform components
 * [**YouTube**](https://www.youtube.com/tigergraph)
 * [**LinkedIn**](https://www.linkedin.com/company/tigergraph/)
 * [**Twitter**](https://twitter.com/TigerGraphDB)

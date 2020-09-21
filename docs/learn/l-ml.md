@@ -51,6 +51,7 @@ In this exercise, we will load a small graph with natural communities into the T
     <iframe width="100%" height="425px" src="https://www.youtube.com/embed/gY5izl4QP70" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Hands On Project
+
 ???+ summary  "Machine Learning TigerLab"
     
     === "NoteBook"
