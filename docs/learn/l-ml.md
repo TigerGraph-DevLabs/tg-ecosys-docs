@@ -5,9 +5,9 @@ template: overrides/main.html
 # Graphs for Machine Learning and AI
 
 ## Why Graph + ML
-You might be thinking why Graphs for Macvhine Learning and AI? There are a few reasons including that it's a **natural data model**, we think in terms of graphs which means graphs can be modeled very logically and naturally.
+You might be thinking why Graphs for Machine Learning and AI? There are a few reasons including that it's a **natural data model**, we think in terms of graphs which means graphs can be modeled very logically and naturally.
 
-Graphs also provide **richer data** by having connections between entities which allow us to create graph-based features. Graphs have always had a natural role in **machine learning** if you look at unsupervised learning through graph algorithms, frequent pattern mining and learning through neural networks, deep learning you will see the corrolations with graph. 
+Graphs also provide **richer data** by having connections between entities which allow us to create graph-based features. Graphs have always had a natural role in **machine learning** if you look at unsupervised learning through graph algorithms, frequent pattern mining and learning through neural networks, deep learning you will see the correlations with graph. 
 
 Graph data models are uniquely qualified to provide explanatory AI which through traditional ML techniques is hard to provide. Native graphs with **Massively Parallel Processing** - (like TigerGraph) enable large scale feature extraction and in-graph analytics which can be more challenging with many joins in a relational database.
 
@@ -45,7 +45,7 @@ In this exercise, we will load a small graph with natural communities into the T
     <!--Youtube Video-->
     <iframe width="100%" height="425px" src="https://www.youtube.com/embed/n4Ww2MtrgJs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-??? summary "Graph Features Extaction in Business Use-Case"
+??? summary "Graph Features Extraction in Business Use-Case"
 
     <!--Youtube Video-->
     <iframe width="100%" height="425px" src="https://www.youtube.com/embed/gY5izl4QP70" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -87,7 +87,7 @@ This exercise is taken directly from an exercise in Andrew Ng's Coursera online 
 
 ### Hands on Project
 
-If you would like to follow along and conduct this workshop outlined above here are the [**resources to get started**](https://drive.google.com/drive/folders/1qEzX7SCvJ_z1-FYBCpwrH3XrvS-Pnqdk?usp=sharing). Please reference the video above as an insturction set for the project. 
+If you would like to follow along and conduct this workshop outlined above here are the [**resources to get started**](https://drive.google.com/drive/folders/1qEzX7SCvJ_z1-FYBCpwrH3XrvS-Pnqdk?usp=sharing). Please reference the video above as an instruction set for the project. 
 
 
 ## In Database Machine Learning
