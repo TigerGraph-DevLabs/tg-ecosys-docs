@@ -87,7 +87,7 @@ This exercise is taken directly from an exercise in Andrew Ng's Coursera online 
 
 ### Hands on Project
 
-If you would like to follow along and conduct this workshop outlined above here are the [**resources to get started**](https://drive.google.com/drive/folders/1qEzX7SCvJ_z1-FYBCpwrH3XrvS-Pnqdk?usp=sharing). Please reference the video above as an instruction set for the project. 
+If you would like to follow along and conduct this workshop outlined above, here are the [**resources to get started**](https://drive.google.com/drive/folders/1qEzX7SCvJ_z1-FYBCpwrH3XrvS-Pnqdk?usp=sharing). Please reference the video above as an instruction set for the project. 
 
 
 ## In Database Machine Learning
