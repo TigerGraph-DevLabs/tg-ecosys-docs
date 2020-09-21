@@ -29,11 +29,13 @@ This site was created using MkDocs and is editable with using markdown. To learn
 ### prerequirments
 
 * python installed
-* mksocs 
+* pip package installed
+* mkdocs installed
+* material-theme installed
 
-### Installation
+### Run Developer Portal Local
 
-### Python pip
+#### Python pip
 
 **Installing pip**
 If you're using a recent version of Python, the Python package manager, pip, is most likely installed by default. However, you may need to upgrade pip to the lasted version:
@@ -45,7 +47,7 @@ If you need to install pip for the first time, download get-pip.py. Then run the
 ```python get-pip.py```
 
 
-### MkDocs
+#### MkDocs
 
 **Installing MkDocs**
 Install the mkdocs package using pip:
@@ -60,7 +62,7 @@ mkdocs, version 0.15.3
 ```
 
 
-### Material Theme
+#### Material Theme
 ** with pip**
 
 Material for MkDocs can be installed with pip:
