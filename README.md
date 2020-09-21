@@ -25,6 +25,48 @@ This site was created using MkDocs and is editable with using markdown. To learn
 
 **Learn More: [Material](https://squidfunk.github.io/mkdocs-material/getting-started/)**
 
+## Getting Started
+### prerequirments
+
+* python installed
+* mksocs 
+
+### Installation
+
+### Python pip
+
+**Installing pip**
+If you're using a recent version of Python, the Python package manager, pip, is most likely installed by default. However, you may need to upgrade pip to the lasted version:
+
+```pip install --upgrade pip```
+
+If you need to install pip for the first time, download get-pip.py. Then run the following command to install it:
+
+```python get-pip.py```
+
+
+### MkDocs
+
+**Installing MkDocs**
+Install the mkdocs package using pip:
+
+```pip install mkdocs```
+
+You should now have the mkdocs command installed on your system. Run mkdocs --version to check that everything worked okay.
+
+```
+$ mkdocs --version
+mkdocs, version 0.15.3
+```
+
+
+### Material Theme
+** with pip**
+
+Material for MkDocs can be installed with pip:
+
+```pip install mkdocs-material```
+
 
 ## Contributing
 
