@@ -11,7 +11,7 @@ For the latest open-source integrations and projects, also check out the [**Tige
 
 ## Where to Start?
 
-**1.** [Install TigerGraph](https://www.tigergraph.com/download/) or [Start tgCloud soulution](https://www.tigergraph.com/cloud/)
+**1.** [Install TigerGraph](https://www.tigergraph.com/download/) or [Get Started on tgCloud](https://www.tigergraph.com/cloud/)
 
 **2.** [Learn TigerGraph by getting certified](https://www.tigergraph.com/certification/)
  
