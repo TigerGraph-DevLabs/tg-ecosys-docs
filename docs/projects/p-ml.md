@@ -11,7 +11,7 @@ Basic example of using TensorFlow with the output of a graph to run a prediction
     
 
     === "NoteBook"
-        <script src="https://gist.github.com/HerkTG/3c9f134487e82b1c9926beb7cff9d7b5.js"></script>
+        <script src="https://gist.github.com/HerkTG/a12ad370f1bd56c448a3ac1ddb61c529.js"></script>
 
     === "Author Info" 
 
