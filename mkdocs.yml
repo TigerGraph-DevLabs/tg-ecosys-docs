@@ -67,22 +67,22 @@ theme:
 # Plugins
 plugins:
   - search
-  - redirects:
-      redirect_maps:
-        # extensions/admonition.md: reference/admonitions.md
-        # extensions/codehilite.md: reference/code-blocks.md
-        # extensions/footnotes.md: reference/footnotes.md
-        # extensions/metadata.md: reference/meta-tags.md
-        # extensions/permalinks.md: setup/setting-up-navigation.md #permalink
-        # extensions/pymdown.md: reference/admonitions.md
-        # plugins/search.md: setup/setting-up-site-search.md
-        # # plugins/minification.md:
-        # plugins/revision-date.md: setup/adding-a-git-repository.md #revision-date
-        # # plugins/awesome-pages.md:
-        # releases/4.md: upgrading.md #upgrading-from-4x-to-5x
-        # releases/5.md: upgrading.md #upgrading-from-3x-to-4x
-        # releases/changelog.md: changelog.md
-        # sponsorship.md: insiders.md
+  # - redirects:
+  #     redirect_maps:
+  #       extensions/admonition.md: reference/admonitions.md
+  #       extensions/codehilite.md: reference/code-blocks.md
+  #       extensions/footnotes.md: reference/footnotes.md
+  #       extensions/metadata.md: reference/meta-tags.md
+  #       extensions/permalinks.md: setup/setting-up-navigation.md #permalink
+  #       extensions/pymdown.md: reference/admonitions.md
+  #       plugins/search.md: setup/setting-up-site-search.md
+  #       # plugins/minification.md:
+  #       plugins/revision-date.md: setup/adding-a-git-repository.md #revision-date
+  #       # plugins/awesome-pages.md:
+  #       releases/4.md: upgrading.md #upgrading-from-4x-to-5x
+  #       releases/5.md: upgrading.md #upgrading-from-3x-to-4x
+  #       releases/changelog.md: changelog.md
+  #       sponsorship.md: insiders.md
   - minify:
       minify_html: true
 
@@ -107,12 +107,13 @@ extra_css:
 
 # Extensions
 markdown_extensions:
-  - markdown.extensions.admonition
-  - markdown.extensions.attr_list
-  - markdown.extensions.def_list
-  - markdown.extensions.footnotes
-  - markdown.extensions.meta
-  - markdown.extensions.toc:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - toc:
       permalink: true
   - pymdownx.arithmatex:
       generic: true
@@ -135,7 +136,11 @@ markdown_extensions:
   - pymdownx.smartsymbols
   - pymdownx.snippets:
       check_paths: true
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed
   - pymdownx.tasklist:
       custom_checkbox: true
