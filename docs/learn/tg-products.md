@@ -9,7 +9,7 @@ template: overrides/main.html
 ???+ summary "Getting Started with TigerGraph Distributed Cloud"
 
     <!--Youtube Video-->
-    <iframe width="100%" height="425px" src="https://www.youtube.com/embed/ZE2u9oLW18k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="100%" height="425px" src="https://www.youtube.com/embed/JARd9ULRP_I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## Intro to GraphStudio 
