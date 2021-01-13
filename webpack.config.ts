@@ -271,7 +271,7 @@ export default (_env: never, args: Configuration): Configuration[] => {
           /* Assets and configuration */
           new CopyPlugin({
             patterns: [
-              { from: ".icons/*.svg" },
+              { from: ".icons/logo.svg" },
               { from: "assets/images/*" },
               { from: "**/*.{py,yml}" }
             ].map(pattern => ({
