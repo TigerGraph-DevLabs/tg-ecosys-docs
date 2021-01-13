@@ -164,8 +164,8 @@ nav:
 
   - Projects:
     - Active Projects: projects/projects.md
-    # - Python: projects/python.md - Comming soon
-    # - Visualization: projects/visualization.md - Comming soon
+    # - Python: projects/python.md - Coming soon
+    # - Visualization: projects/visualization.md - Coming soon
     - Machine Learning: projects/p-ml.md
 
   - Awesome:
